@@ -50,4 +50,4 @@ searchInput.addEventListener('input', e => {
   displayChannels(filtered);
 });
 
-loadM3U("https://iptv-org.github.io/iptv/countries/in.m3u");
+loadM3U("https://raw.githubusercontent.com/kaushik2058/All-sports-channels-/refs/heads/main/README.md");

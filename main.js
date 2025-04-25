@@ -50,4 +50,4 @@ searchInput.addEventListener('input', e => {
   displayChannels(filtered);
 });
 
-loadM3U("https://raw.githubusercontent.com/kaushik2058/Sports-Channel/main/playlist%20(1).m3u");
+loadM3U("http://142.171.246.149:8182/playlist.m3u8");

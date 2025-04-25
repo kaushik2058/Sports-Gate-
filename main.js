@@ -3,7 +3,7 @@ const app = document.getElementById('app');
 app.innerHTML = `
   <h1 class="text-3xl font-bold mb-4 text-center text-green-400">LiveSportGate</h1>
   <input id="search" type="text" placeholder="Search Channels..." class="w-full p-2 mb-4 rounded text-black" />
-  <div id="channels" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4"></div>
+  <div id="channels" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-7 gap-4"></div>
 `;
 
 const searchInput = document.getElementById('search');
@@ -50,4 +50,4 @@ searchInput.addEventListener('input', e => {
   displayChannels(filtered);
 });
 
-loadM3U("https://raw.githubusercontent.com/kaushik2058/sports-channel/main/playlist.m3u");
+loadM3U("https://raw.githubusercontent.com/kaushik2058/Sports-Channel/main/playlist%20(1).m3u");

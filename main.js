@@ -50,4 +50,4 @@ searchInput.addEventListener('input', e => {
   displayChannels(filtered);
 });
 
-loadM3U("https://raw.githubusercontent.com/kaushik2058/Sports-Channel/refs/heads/main/playlist%20(1).m3u");
+loadM3U("https://crichd-playlist-byxfireflix.pages.dev/ALL.m3u");
